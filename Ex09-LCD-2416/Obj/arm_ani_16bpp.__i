@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\Source\Lcd -I..\BSP -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC17xx -D_LCD_LANDSCAPE -o ".\Obj\arm_ani_16bpp.o" --omf_browse ".\Obj\arm_ani_16bpp.crf" --depend ".\Obj\arm_ani_16bpp.d" "Source\Picture\ARM_Ani_16bpp.c"
